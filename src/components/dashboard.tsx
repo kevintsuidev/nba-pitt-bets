@@ -6,6 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Trophy, Users, Award, TrendingUp, LogIn, Eye } from "lucide-react";
 import ConferenceStandings from "./predictions/ConferenceStandings";
 import PlayerSelectionGrid from "./predictions/PlayerSelectionGrid";
+import { Badge } from "./ui/badge";
 
 interface DashboardProps {
   className?: string;
